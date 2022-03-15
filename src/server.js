@@ -3,7 +3,7 @@ const { port } = require("config");
 const logger = require("logger");
 const app = require("./app");
 
-module.exports = app
+app
   .listen(port, () => {
     logger.info({
       method: "app.listen",
@@ -11,3 +11,5 @@ module.exports = app
     });
   })
   .on("error", (e) => logger.error(e));
+
+module.exports = app;
