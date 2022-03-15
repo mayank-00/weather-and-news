@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 
 require("./library/db");
 require("./library/passport");
-require("./library/redis");
+require("./library/redisServer");
 
 const config = require("config");
 const { APIError, UnexpectedError, InvalidInputError, BadRequestError } = require("errors");
