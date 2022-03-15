@@ -1,0 +1,10 @@
+node_modules
+Dockerfile
+.env
+package.json
+package-lock.json
+.eslintignore
+.eslintrc.json
+.eslintrc
+.prettierignore
+.prettierrc

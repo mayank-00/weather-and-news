@@ -1,0 +1,13 @@
+# path/to/project/root/.eslintignore
+# /node_modules/* and /bower_components/* in the project root are ignored by default
+
+node_modules
+Dockerfile
+.env
+package.json
+package-lock.json
+.eslintignore
+.eslintrc.json
+.eslintrc
+.prettierignore
+.prettierrc
